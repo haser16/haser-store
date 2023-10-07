@@ -1,0 +1,16 @@
+.haser-point {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius:15px ;
+}
+
+
+.img-testimonials-haser {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.testimonials {
+    border: 1px solid rgba(0,0,0,0.1);
+    max-height: 300px;
+    overflow-y: scroll;
+}

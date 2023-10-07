@@ -1,0 +1,27 @@
+{% extends 'products/base.html' %}
+
+{% block 'content' %}
+    <section>
+        <div class="container haser-accordion">
+            <h1 class="text-center">Rools</h1>
+            <div class="accordion" id="accordionExample">
+                {% for rule in rules %}
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#{{rule.id}}" aria-expanded="false" aria-controls="{{rule.id}}">
+                        {{rule.article}}
+                    </button>
+                  </h2>
+                  <div id="{{rule.id}}" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        {{rule.description}}
+                    </div>
+                  </div>
+                </div>
+                {% endfor %}
+                </div>
+              </div>
+
+        </div>
+    </section>
+{% endblock %}
