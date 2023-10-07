@@ -4,7 +4,81 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f2f671b-420f-4d06-8425-7fa9cfa42077" name="Changes" comment="" />
+    <list default="true" id="7f2f671b-420f-4d06-8425-7fa9cfa42077" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products_images/iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products_images/mac-studio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products_images/macbook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products_images/macbook_xi7S9un.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products_images/mouse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products_images/s23-ultra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/users_images/756778260839801.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/users_images/756778260839801_geVieHv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/users_images/IMG_20230709_155346_964.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/users_images/IMG_20230709_155347_542.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/users_images/f9fa43d1f0070339_original.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/fixtures/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/fixtures/images.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/fixtures/options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/fixtures/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/migrations/0002_basket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/templates/products/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/templates/products/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/templates/products/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/default_avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/mouse and keyboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/phones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/white.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/0002_rules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/basket.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/rules.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +93,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/haser-store" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
